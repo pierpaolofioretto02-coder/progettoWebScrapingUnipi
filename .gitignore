@@ -1,0 +1,11 @@
+# Ignora tutto il contenuto della cartella
+*
+
+# Ma non ignorare i file .py
+!*.ipynb
+!*.pdf
+!*.txt
+
+# E non ignorare il file .gitignore stesso e l'eventuale README
+!.gitignore
+!README.md
